@@ -11,12 +11,24 @@ class CardListTile extends StatelessWidget {
       ),
       body: Center(
         child: 
-        Column(
-          children: [
-            tekListeItemi(),
-            tekListeItemi(),
-            tekListeItemi(),
-          ],
+        SingleChildScrollView(
+          child: Column(
+            children: [
+              tekListeItemi(),
+              tekListeItemi(),
+              tekListeItemi(),
+              tekListeItemi(),
+              tekListeItemi(),
+              tekListeItemi(),
+              tekListeItemi(),
+              tekListeItemi(),
+              tekListeItemi(),
+              tekListeItemi(),
+              tekListeItemi(),
+              tekListeItemi(),
+              
+            ],
+          ),
         )
         
         // tekListeItemi()
