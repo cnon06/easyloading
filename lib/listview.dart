@@ -49,7 +49,14 @@ Card tekListeItemi(
     ),
     child: ListTile(
       onTap: () {
-        EasyLoading.showToast(ad, duration: const Duration(seconds: 1), dismissOnTap: true, toastPosition: EasyLoadingToastPosition.bottom);
+        id % 2 == 0
+            ? EasyLoading.instance.backgroundColor = Colors.amber
+            : EasyLoading.instance.backgroundColor = Colors.blue;
+
+        EasyLoading.showToast(ad,
+            duration: const Duration(seconds: 1),
+            dismissOnTap: true,
+            toastPosition: EasyLoadingToastPosition.bottom);
       },
       leading: CircleAvatar(
         child: Text(id.toString()),

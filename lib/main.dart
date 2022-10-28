@@ -30,7 +30,7 @@ void configLoading() {
     ..progressColor = Colors.yellow
     ..backgroundColor = Colors.green
     ..indicatorColor = Colors.yellow
-    ..textColor = Colors.yellow
+    ..textColor = Colors.white
     ..maskColor = Colors.blue.withOpacity(0.5)
     ..userInteractions = true
     ..dismissOnTap = false;
